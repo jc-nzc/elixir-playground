@@ -17,3 +17,8 @@ true       # boolean
 
 atoms / symbols in other languages
 :apple
+
+booleans are atoms
+true == :true
+is_atom(false)
+is_boolean(:false)
