@@ -22,3 +22,7 @@ booleans are atoms
 true == :true
 is_atom(false)
 is_boolean(:false)
+
+Question:
+Isn't everything in Elixir immutable?
+Should variables then be called constants or something else
