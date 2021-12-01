@@ -36,3 +36,12 @@ string concatenation
 x = "Dark"
 y = "Knight"
 z = x <> " " <> y
+
+What's the equivalent of 'object_id' in Elixir?
+a = "pillow"
+a.object_id
+205
+
+a = "cloud"
+a.object_id
+208
