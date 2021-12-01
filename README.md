@@ -31,3 +31,8 @@ variable declaration
 life = 42
 life = "Hello world"
 ^ and reassignment
+
+string concatenation
+x = "Dark"
+y = "Knight"
+z = x <> " " <> y
