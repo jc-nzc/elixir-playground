@@ -26,3 +26,8 @@ is_boolean(:false)
 Question:
 Isn't everything in Elixir immutable?
 Should variables then be called constants or something else
+
+variable declaration
+life = 42
+life = "Hello world"
+^ and reassignment
