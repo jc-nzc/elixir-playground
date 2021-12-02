@@ -45,3 +45,5 @@ a.object_id
 a = "cloud"
 a.object_id
 208
+
+IO.puts(String.length("Hello"))
