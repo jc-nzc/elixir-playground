@@ -47,3 +47,7 @@ a.object_id
 208
 
 IO.puts(String.length("Hello"))
+IO.puts(String.reverse("World"))
+IO.puts(String.upcase("Hello") <> " " <> String.reverse("World"))
+
+current_process = self()
