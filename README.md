@@ -51,3 +51,7 @@ IO.puts(String.reverse("World"))
 IO.puts(String.upcase("Hello") <> " " <> String.reverse("World"))
 
 current_process = self()
+
+IO.puts(<< 0, 1 >> <> << 2, 3 >>)
+
+h # helpers
