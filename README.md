@@ -55,3 +55,10 @@ current_process = self()
 IO.puts(<< 0, 1 >> <> << 2, 3 >>)
 
 h # helpers
+
+def exclaim(string) do
+  string
+    |> String.trim()
+    |> String.capitalize()
+    |> Kernel.<>("!")
+end
