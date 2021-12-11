@@ -34,10 +34,6 @@
 # age = IO.gets "And what is your age? "
 # IO.puts "Hello, #{String.trim(name)}! You're #{String.trim(age)}? That's so old!"
 
-defmodule PipePlay do
-	def perform do
-    IO.puts "Sanity Check"
-	end
-end
 
-PipePlay.perform()
+sum = fn (a, b) -> a + b end
+IO.puts(sum.(1, 5))
