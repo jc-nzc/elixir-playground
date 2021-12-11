@@ -37,3 +37,6 @@
 
 sum = fn (a, b) -> a + b end
 IO.puts(sum.(1, 5))
+
+divider = fn (c, d) -> c / d end
+IO.puts(divider.(20, 4))
