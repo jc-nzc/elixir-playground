@@ -40,3 +40,8 @@ IO.puts(sum.(1, 5))
 
 divider = fn (c, d) -> c / d end
 IO.puts(divider.(20, 4))
+
+# The "&" operator creates the parameters for the function definition
+
+sum = &(&1 + &2)
+IO.puts(sum.(4, 5))
