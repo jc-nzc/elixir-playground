@@ -45,3 +45,7 @@ IO.puts(divider.(20, 4))
 
 sum = &(&1 + &2)
 IO.puts(sum.(4, 5))
+
+subtract = &(&1 - &2)
+IO.puts "Here is my formula" <> " for subtraction"
+IO.puts(subtract.(12, 4))
