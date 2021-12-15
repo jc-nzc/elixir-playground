@@ -49,3 +49,11 @@ IO.puts(sum.(4, 5))
 subtract = &(&1 - &2)
 IO.puts "Here is my formula" <> " for subtraction"
 IO.puts(subtract.(12, 4))
+
+defmodule Arith do
+	def subs(a, b) do
+		a - b
+	end
+end
+
+IO.puts("Here is some arithmetic for yahs #{Arith.subs(3, 1)}")
