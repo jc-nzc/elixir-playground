@@ -57,3 +57,11 @@ defmodule Arith do
 end
 
 IO.puts("Here is some arithmetic for yahs #{Arith.subs(3, 1)}")
+
+defmodule Donut do
+	def bark do
+		IO.puts "Woof"
+	end
+end
+
+IO.puts(Donut.bark())
