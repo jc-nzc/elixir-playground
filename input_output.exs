@@ -65,3 +65,13 @@ defmodule Donut do
 end
 
 IO.puts(Donut.bark())
+
+defmodule M do
+	def main do
+		name = IO.gets("What's your name? ") |> String.trim
+		IO.puts "Hello #{name}"
+	end
+end
+
+#c("input_output.exs")
+# M.main
