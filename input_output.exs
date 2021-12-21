@@ -83,5 +83,6 @@ defmodule M do
 
 	def data_stuff do
 		IO.puts "Atom #{is_atom(:Atom)}"
+		IO.puts "Length of my string is #{String.length("Adam")}"
 	end
 end
