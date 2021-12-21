@@ -66,12 +66,22 @@ end
 
 IO.puts(Donut.bark())
 
-defmodule M do
-	def main do
-		name = IO.gets("What's your name? ") |> String.trim
-		IO.puts "Hello #{name}"
-	end
-end
+# defmodule M do
+# 	def main do
+# 		name = IO.gets("What's your name? ") |> String.trim
+# 		IO.puts "Hello #{name}"
+# 	end
+# end
 
 #c("input_output.exs")
 # M.main
+
+defmodule M do
+	def main do
+		data_stuff()
+	end
+
+	def data_stuff do
+		IO.puts "Atom #{is_atom(:Atom)}"
+	end
+end
