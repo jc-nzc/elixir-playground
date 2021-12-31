@@ -84,5 +84,6 @@ defmodule M do
 	def data_stuff do
 		IO.puts "Atom #{is_atom(:Atom)}"
 		IO.puts "Length of my string is #{String.length("Adam")}"
+		IO.puts "Data type of my var is #{is_integer(5)}"
 	end
 end
