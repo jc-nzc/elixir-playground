@@ -1,0 +1,6 @@
+{:ok, file} = File.open("hello", [:write])
+IO.binwrite(file, "world")
+File.close(file)
+read_file = File.read("hello")
+IO.inspect(read_file)
+# IO.inspect(File.read("hello"))
