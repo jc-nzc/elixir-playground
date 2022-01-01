@@ -2,6 +2,8 @@
 IO.binwrite(file, "world")
 File.close(file)
 read_file = File.read("hello")
+# read_file = File.read!("hello")
+# Notice that the version with ! returns the contents of the file instead of a tuple, and if anything goes wrong the function raises an error.
 IO.inspect(read_file)
 # IO.inspect(File.read("hello"))
 
