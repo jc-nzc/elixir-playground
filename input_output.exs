@@ -87,3 +87,8 @@ defmodule M do
 		IO.puts "Data type of my var is #{is_integer(5)}"
 	end
 end
+
+# Ananymous Functions
+multi = fn a, b -> a * b end
+IO.inspect(multi.(5, 5))
+IO.inspect(is_function(multi))
