@@ -88,7 +88,11 @@ defmodule M do
 	end
 end
 
-# Ananymous Functions
+# Anonymous Functions
 multi = fn a, b -> a * b end
 IO.inspect(multi.(5, 5))
 IO.inspect(is_function(multi))
+
+signal = fn a, b -> a <> " " <> b end
+IO.inspect(signal.("John", "Hopkins"))
+IO.inspect(is_function(signal))
