@@ -96,3 +96,7 @@ IO.inspect(is_function(multi))
 signal = fn a, b -> a <> " " <> b end
 IO.inspect(signal.("John", "Hopkins"))
 IO.inspect(is_function(signal))
+
+
+reader = File.read!("depth.txt") |> String.split("\n")
+IO.inspect reader
