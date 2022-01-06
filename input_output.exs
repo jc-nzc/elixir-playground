@@ -100,3 +100,7 @@ IO.inspect(is_function(signal))
 
 reader = File.read!("depth.txt") |> String.split("\n")
 IO.inspect reader
+
+if true do
+	IO.puts "This worked"
+end
