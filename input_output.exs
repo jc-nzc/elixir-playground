@@ -134,3 +134,6 @@ defmodule Math do
 end
 
 IO.puts Math.sum_list([1, 2, 3, 18], 0) #=> 24
+
+recursion = Enum.map([1, 2, 3], &(&1 * 2))
+IO.inspect recursion
