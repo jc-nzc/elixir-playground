@@ -143,3 +143,11 @@ IO.puts Math.sum_list([1, 2, 3, 18], 0) #=> 24
 
 recursion = Enum.map([1, 2, 3], &(&1 * 2))
 IO.inspect recursion
+
+# Maps exercise
+map = %{:a => 1, 2 => :b}
+IO.inspect map[:a]
+
+n = 1
+map = %{n => :one}
+IO.inspect map[n]
