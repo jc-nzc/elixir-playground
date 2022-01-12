@@ -147,6 +147,7 @@ IO.inspect recursion
 # Maps exercise
 map = %{:a => 1, 2 => :b}
 IO.inspect map[:a]
+IO.inspect map[2]
 
 n = 1
 map = %{n => :one}
