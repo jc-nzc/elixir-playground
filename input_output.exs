@@ -144,6 +144,12 @@ IO.puts Math.sum_list([1, 2, 3, 18], 0) #=> 24
 recursion = Enum.map([1, 2, 3], &(&1 * 2))
 IO.inspect recursion
 
+list = [{:a, 1}, {:b, 2}]
+# list == [a: 1, b: 2]
+IO.inspect list
+list = list ++ [c: 3]
+IO.inspect list
+
 # Maps exercise
 map = %{:a => 1, 2 => :b}
 IO.inspect map[:a]
