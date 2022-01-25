@@ -165,6 +165,7 @@ IO.puts(:stderr, "hello world")
 
 defmodule User do
 	defstruct name: "John", age: 27
+	%User{age: 27, name: "John"}
 end
 
-%User{age: 27, name: "John"}
+IO.inspect %User{}
