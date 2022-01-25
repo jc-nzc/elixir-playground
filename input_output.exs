@@ -158,3 +158,7 @@ IO.inspect map[2]
 n = 1
 map = %{n => :one}
 IO.inspect map[n]
+
+
+
+IO.puts(:stderr, "hello world")
