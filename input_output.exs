@@ -162,3 +162,9 @@ IO.inspect map[n]
 
 
 IO.puts(:stderr, "hello world")
+
+defmodule User do
+	defstruct name: "John", age: 27
+end
+
+%User{age: 27, name: "John"}
