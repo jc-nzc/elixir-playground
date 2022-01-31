@@ -12,3 +12,11 @@ IO.inspect(read_file)
 # I usually get this error message when I try to use IO.puts instead of IO.inspect to print something out to console that is not a string.
 # https://elixirforum.com/t/protocol-string-chars-not-implemented-for/511/2
 IO.puts(Path.expand("~/hello"))
+
+
+{:ok, file} = File.open("hello", [:write])
+IO.binwrite(file, "hola muchachos")
+File.close(file)
+read_file = File.read("hello")
+IO.inspect(read_file)
+IO.puts(Path.expand("~/hello"))
