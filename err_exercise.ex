@@ -1,1 +1,1 @@
-IO.inspect raise "oops"
+raise "oops"
