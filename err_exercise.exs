@@ -10,3 +10,10 @@ IO.inspect div(10,2)
 IO.inspect div 10,4
 
 IO.inspect rem 10, 3
+
+IO.puts 0b1010
+
+IO.puts 0x1F
+
+# Alias example
+IO.puts is_atom(Hello)
