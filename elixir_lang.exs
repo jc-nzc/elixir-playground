@@ -17,3 +17,13 @@ IO.puts 0x1F
 
 # Alias example
 IO.puts is_atom(Hello)
+
+defmodule M do
+	def main do
+		name = IO.gets("What's your name? ")
+		|> String.trim
+
+		IO.puts "Hello #{name}"
+		# data_stuff()
+	end
+end
