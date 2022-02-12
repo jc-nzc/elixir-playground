@@ -27,3 +27,7 @@ defmodule M do
 		# data_stuff()
 	end
 end
+
+# iex
+# c("elixir_lang.exs")
+# M.main
