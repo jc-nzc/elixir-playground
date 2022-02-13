@@ -28,13 +28,12 @@ defmodule M do
 		|> String.trim
 
 		IO.puts "Hello #{name}"
-		# data_stuff()
+		data_stuff()
 	end
-end
 
+	def data_stuff do
+		my_int = 123
+		IO.puts "Intger is #{is_integer(my_int)}"
+	end
 
-
-def data_stuff do
-	my_int = 123
-	IO.puts "Intger is #{is_integer(my_int)}"
 end
