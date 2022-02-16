@@ -33,10 +33,12 @@ defmodule M do
 
 	def data_stuff do
 		my_int = 123
-		IO.puts "Intger is #{is_integer(my_int)}"
+		IO.puts "Integer is #{is_integer(my_int)}"
 
 		my_float = 3.14159
 		IO.puts "Float #{is_float(my_float)}"
+
+		IO.puts "Symbol/Atom is #{is_atom(:Pittsburgh)}"
 	end
 
 end
