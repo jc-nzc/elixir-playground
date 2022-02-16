@@ -39,6 +39,10 @@ defmodule M do
 		IO.puts "Float #{is_float(my_float)}"
 
 		IO.puts "Symbol/Atom is #{is_atom(:Pittsburgh)}"
+
+		:"NewYork"
+
+		one_to_10 = 1..10
 	end
 
 end
