@@ -43,6 +43,8 @@ defmodule M do
 		:"NewYork"
 
 		one_to_10 = 1..10
+
+		IO.puts h trunc/1
 	end
 
 end
