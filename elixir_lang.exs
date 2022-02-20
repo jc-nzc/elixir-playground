@@ -42,9 +42,18 @@ defmodule M do
 
 		:"NewYork"
 
+		# h trunc/1
+
 		one_to_10 = 1..10
 
-		IO.puts h trunc/1
+		add = fn a, b -> a + b end
+
+		IO.puts add.(1, 2)
+		IO.puts add.(4, 77)
+		IO.puts add.(73892, 2384829)
+
+		IO.puts is_function(add)
+
 	end
 
 end
