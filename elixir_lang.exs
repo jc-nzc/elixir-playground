@@ -54,6 +54,10 @@ defmodule M do
 
 		IO.puts is_function(add)
 
+		subtract = fn a, b -> a - b end
+		IO.puts subtract.(4, 3)
+		IO.puts is_function(subtract)
+
 	end
 
 end
