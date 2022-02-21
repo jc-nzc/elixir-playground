@@ -58,8 +58,8 @@ defmodule M do
 		IO.puts subtract.(4, 3)
 		IO.puts is_function(subtract)
 
-		say_hello_msg = fn a -> puts("what a calamity") end
-		IO.puts say_hello_msg(a)
+		say_hello_msg = fn puts("what a calamity") end
+		IO.puts say_hello_msg
 
 	end
 
