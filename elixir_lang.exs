@@ -59,7 +59,7 @@ defmodule M do
 		IO.puts is_function(subtract)
 
 		sum = &(&1 + &2)
-		IO.puts sum
+		IO.inspect sum.(1, 2)
 
 	end
 
