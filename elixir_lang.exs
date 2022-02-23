@@ -22,6 +22,8 @@
 # c("elixir_lang.exs")
 # M.main
 
+# Soft Exit -> System.halt
+
 defmodule M do
 	def main do
 		name = IO.gets("What's your name? ")
@@ -62,5 +64,13 @@ defmodule M do
 		IO.inspect sum.(1, 2)
 
 	end
+
+ def name_std_process do
+ 	name_input = IO.gets("What's your name? ")
+	|> String.trim
+	|> String.upcase
+	|> String.reverse
+	IO.puts "Hello #{name_input <> " " <> "OK Computer"}"
+ end
 
 end
