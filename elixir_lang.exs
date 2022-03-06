@@ -63,6 +63,13 @@ defmodule M do
 		sum = &(&1 + &2)
 		IO.inspect sum.(1, 2)
 
+		f = fn
+			x, y when x > 0 -> x + y
+			x, y -> x * y
+		end
+
+		IO.puts f.(1, 3)
+
 	end
 
  def name_std_process do
