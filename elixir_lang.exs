@@ -46,7 +46,7 @@ defmodule M do
 
 		# h trunc/1
 
-		one_to_10 = 1..10
+		# one_to_10 = 1..10
 
 		add = fn a, b -> a + b end
 
@@ -63,12 +63,15 @@ defmodule M do
 		sum = &(&1 + &2)
 		IO.inspect sum.(1, 2)
 
-		f = fn
-			x, y when x > 0 -> x + y
-			x, y -> x * y
-		end
+		# f = fn
+		# 	x, y when x > 0 -> x + y
+		# 	x, y -> x * y
+		# end
+		#
+		# IO.inspect f.(1, 3)
+		resp = IO.gets("yes or no?")
+		IO.puts resp
 
-		IO.puts f.(1, 3)
 
 	end
 
