@@ -3,7 +3,7 @@ defmodule Geometry do
     a * b
   end
 
-  def area_of_a_square do
+  def area_of_a_square(a) do
     a * a
   end
 end
