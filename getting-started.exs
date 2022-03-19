@@ -1,8 +1,8 @@
 defmodule ScreenRead do
 	def run do
-		random_string = IO.gets("print some type of string... just do it!")
+		name = IO.gets("What's your name?" <> "\n")
 		|> String.trim
-		IO.puts(random_string)
+		IO.puts("well hello " <> "#{name}")
 	end
 end
 
